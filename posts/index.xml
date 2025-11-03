@@ -7,12 +7,21 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en-US</language>
     <copyright>Bandhit Suksiri, D.Eng. in Inf. Syst.</copyright>
-    <lastBuildDate>Mon, 03 Nov 2025 17:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 20:00:00 +0900</lastBuildDate>
     <atom:link href="https://bandhit.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Run Ollama Locally with a Web UI</title>
+      <link>https://bandhit.github.io/posts/ollama-local-1/</link>
+      <pubDate>Mon, 03 Nov 2025 20:00:00 +0900</pubDate>
+      <guid>https://bandhit.github.io/posts/ollama-local-1/</guid>
+      <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;I saw this recently: &lt;a href=&#34;https://www.youtube.com/watch?v=qw4fDU18RcU&#34;&gt;PewDiePie built his own chat app to run LLMs locally on his machine.&lt;/a&gt;
+And also, I’ve spent countless hours roasting my GPU with AAA games-might as well make it do something useful for a change! Have you ever wanted to play with large language models (LLMs) right on your own computer, without relying on the cloud? Enter Ollama, a nifty open-source tool that lets you run powerful AI models locally!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Quick Tutorial: Creating Blogs and Websites with Hugo &#43; Microsoft Azure Blob Storage Account</title>
       <link>https://bandhit.github.io/posts/hello-hugo/</link>
-      <pubDate>Mon, 03 Nov 2025 17:00:00 +0900</pubDate>
+      <pubDate>Sun, 02 Nov 2025 17:00:00 +0900</pubDate>
       <guid>https://bandhit.github.io/posts/hello-hugo/</guid>
       <description>&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;Someone came up to me and said, &amp;ldquo;Let&amp;rsquo;s make some blogs!&amp;rdquo;
@@ -25,7 +34,7 @@ Now, my blog is blazing fast, totally customizable, and blissfully free of cooki
 Who knew building websites could actually be empowering (and kind of fun)?&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Welcome aboard</title>
+      <title>Welcome Aboard</title>
       <link>https://bandhit.github.io/posts/welcome-monke/</link>
       <pubDate>Sat, 01 Nov 2025 15:10:00 +0900</pubDate>
       <guid>https://bandhit.github.io/posts/welcome-monke/</guid>

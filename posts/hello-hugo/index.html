@@ -86,8 +86,8 @@ Ok, then, to do that, my instinct was to run the other way. Anything to avoid be
   <meta property="og:locale" content="en-US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-11-03T17:00:00+09:00">
-    <meta property="article:modified_time" content="2025-11-03T17:00:00+09:00">
+    <meta property="article:published_time" content="2025-11-02T17:00:00+09:00">
+    <meta property="article:modified_time" content="2025-11-02T17:00:00+09:00">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Quick Tutorial: Creating Blogs and Websites with Hugo &#43; Microsoft Azure Blob Storage Account">
 <meta name="twitter:description" content="Motivation
@@ -131,11 +131,11 @@ Who knew building websites could actually be empowering (and kind of fun)?">
   "keywords": [
     
   ],
-  "articleBody": "Motivation Someone came up to me and said, “Let’s make some blogs!” At first, my reaction was …\nOk, then, to do that, my instinct was to run the other way. Anything to avoid being trapped in the world of WordPress themes or WIX wizardry. Instead, I dusted off my terminal, grabbed a cup of cocoa, and dove into Hugo-a lightning-fast static site generator that lets me control every pixel. For hosting, no pricey managed platforms, just a trusty Microsoft Azure Blob Storage account, letting me deploy and update with just a push. Now, my blog is blazing fast, totally customizable, and blissfully free of cookie-cutter templates. Who knew building websites could actually be empowering (and kind of fun)?\nThis tutorial guides you through creating a blog using Hugo, a fast and flexible static site generator, and deploying it with Microsoft Azure Blob Storage.\nPrerequisites Install Hugo Install Git Have an active Microsoft Azure account with Blob Storage setup Basic command-line and text editor familiarity Install Hugo Tips With snap (for Ubuntu) To install Hugo with snap, run:\nsudo snap install hugo With mamba (miniforge system) Personally, I prefer using mamba for package management across multiple-projects. Because it’s much faster and less prone to dependency resolution issues. Also, if you’re working in a commercial or government environment, don’t install Anaconda unless your organization has actually purchased a license—otherwise, you could be violating terms of use. Community packages like mamba are free for anyone to use without commercial restrictions.\nTo install Hugo using mamba CLI starting from creating a conda environment, you can follow these steps:\nCreate a new conda environment:\nmamba create -n hugo_env -y Activate the new environment:\nmamba activate hugo_env Install Hugo using mamba from the conda-forge channel:\nmamba install -c conda-forge hugo -y This sequence sets up a mamba environment and installs Hugo efficiently.\nCreate a New Hugo Site Open your terminal and run:\nhugo new site mlablogs cd mlablogs git init This sets up a fresh Hugo project.\nAdd a Theme Choose a theme from the Hugo themes repository. For example, add the Ananke theme:\ngit submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod echo 'theme = \"PaperMod\"' \u003e\u003e config.toml You can also change the theme later by editing config.toml, and don’t forget to verify your submodules in .gitmodules if you need to remove or add more themes.\nAdd Content Create your first blog post:\nmkdir -p content/posts/hello-hugo nano content/posts/hello-hugo/index.md Edit this Markdown file and add your text.\n+++ date = '2025-11-03T12:00:00+09:00' draft = false title = 'Hello Hugo' +++ ## Hello Hugo! Hello Hugo! Preview Locally Run:\nhugo server Visit http://localhost:1313 to see your site live locally.\nBuild the Site Generate static files:\nhugo Static files output to the public directory.\nDeploy to Azure Blob Storage Create a Blob Storage container in Azure Portal and set it for static website hosting. Use Azure CLI or Azure Storage Explorer to upload the contents of the public folder to the $web container. Configure your storage account’s static website endpoint as your site URL. ",
-  "wordCount" : "502",
+  "articleBody": "Motivation Someone came up to me and said, “Let’s make some blogs!” At first, my reaction was …\nOk, then, to do that, my instinct was to run the other way. Anything to avoid being trapped in the world of WordPress themes or WIX wizardry. Instead, I dusted off my terminal, grabbed a cup of cocoa, and dove into Hugo-a lightning-fast static site generator that lets me control every pixel. For hosting, no pricey managed platforms, just a trusty Microsoft Azure Blob Storage account, letting me deploy and update with just a push. Now, my blog is blazing fast, totally customizable, and blissfully free of cookie-cutter templates. Who knew building websites could actually be empowering (and kind of fun)?\nThis tutorial guides you through creating a blog using Hugo, a fast and flexible static site generator, and deploying it with Microsoft Azure Blob Storage.\nPrerequisites Install Hugo Install Git Have an active Microsoft Azure account with Blob Storage setup Basic command-line and text editor familiarity Install Hugo Tips With snap (for Ubuntu) To install Hugo with snap, run:\nsudo snap install hugo With mamba (miniforge system) Personally, I prefer using mamba for package management across multiple-projects. Because it’s much faster and less prone to dependency resolution issues. Also, if you’re working in a commercial or government environment, don’t install Anaconda unless your organization has actually purchased a license—otherwise, you could be violating terms of use. Community packages like mamba are free for anyone to use without commercial restrictions.\nTo install Hugo using mamba CLI starting from creating a conda environment, you can follow these steps:\nCreate a new conda environment:\nmamba create -n hugo_env -y Activate the new environment:\nmamba activate hugo_env Install Hugo using mamba from the conda-forge channel:\nmamba install -c conda-forge hugo -y This sequence sets up a mamba environment and installs Hugo efficiently.\nCreate a New Hugo Site Open your terminal and run:\nhugo new site mlablogs cd mlablogs git init This sets up a fresh Hugo project.\nAdd a Theme Choose a theme from the Hugo themes repository. For example, add the Ananke theme:\ngit submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod echo 'theme = \"PaperMod\"' \u003e\u003e config.toml You can find more themes on . You can also change the theme later by editing config.toml, and don’t forget to verify your submodules in .gitmodules if you need to remove or add more themes.\nAdd Content Create your first blog post:\nmkdir -p content/posts/hello-hugo nano content/posts/hello-hugo/index.md Edit this Markdown file and add your text.\n+++ date = '2025-11-03T12:00:00+09:00' draft = false title = 'Hello Hugo' +++ ## Hello Hugo! Hello Hugo! Preview Locally Run:\nhugo server Visit http://localhost:1313 to see your site live locally.\nVery simple, isn’t it?\nBuild the Site Generate static files:\nhugo Static files output to the public directory.\nDeploy to Azure Blob Storage Create a Blob Storage container in Azure Portal and set it for static website hosting. Use Azure CLI or Azure Storage Explorer to upload the contents of the public folder to the $web container. Configure your storage account’s static website endpoint as your site URL. There you have it There you have it. Now you know it… no refunds if it stops working!\n",
+  "wordCount" : "531",
   "inLanguage": "en",
-  "datePublished": "2025-11-03T17:00:00+09:00",
-  "dateModified": "2025-11-03T17:00:00+09:00",
+  "datePublished": "2025-11-02T17:00:00+09:00",
+  "dateModified": "2025-11-02T17:00:00+09:00",
   "author":{
     "@type": "Person",
     "name": "Bandhit Suksiri"
@@ -195,7 +195,7 @@ Who knew building websites could actually be empowering (and kind of fun)?">
     <h1 class="post-title entry-hint-parent">
       Quick Tutorial: Creating Blogs and Websites with Hugo &#43; Microsoft Azure Blob Storage Account
     </h1>
-    <div class="post-meta"><span title='2025-11-03 17:00:00 +0900 JST'>November 3, 2025</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>Bandhit Suksiri</span>
+    <div class="post-meta"><span title='2025-11-02 17:00:00 +0900 JST'>November 2, 2025</span>&nbsp;·&nbsp;<span>3 min</span>&nbsp;·&nbsp;<span>Bandhit Suksiri</span>
 
 </div>
   </header> <div class="toc">
@@ -230,7 +230,9 @@ Who knew building websites could actually be empowering (and kind of fun)?">
                 <li>
                     <a href="#build-the-site" aria-label="Build the Site">Build the Site</a></li>
                 <li>
-                    <a href="#deploy-to-azure-blob-storage" aria-label="Deploy to Azure Blob Storage">Deploy to Azure Blob Storage</a>
+                    <a href="#deploy-to-azure-blob-storage" aria-label="Deploy to Azure Blob Storage">Deploy to Azure Blob Storage</a></li>
+                <li>
+                    <a href="#there-you-have-it" aria-label="There you have it">There you have it</a>
                 </li>
             </ul>
         </div>
@@ -285,7 +287,8 @@ Community packages like mamba are free for anyone to use without commercial rest
 <p>Choose a theme from the Hugo themes repository. For example, add the Ananke theme:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 </span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;theme = &#34;PaperMod&#34;&#39;</span> &gt;&gt; config.toml
-</span></span></code></pre></div><p>You can also change the theme later by editing <code>config.toml</code>,
+</span></span></code></pre></div><p>You can find more themes on <img alt="here" loading="lazy" src="https://themes.gohugo.io/">.
+You can also change the theme later by editing <code>config.toml</code>,
 and don&rsquo;t forget to verify your submodules in <code>.gitmodules</code> if you need to remove or add more themes.</p>
 <h2 id="add-content">Add Content<a hidden class="anchor" aria-hidden="true" href="#add-content">#</a></h2>
 <p>Create your first blog post:</p>
@@ -305,6 +308,8 @@ and don&rsquo;t forget to verify your submodules in <code>.gitmodules</code> if 
 <p>Run:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo server
 </span></span></code></pre></div><p>Visit <code>http://localhost:1313</code> to see your site live locally.</p>
+<p><img alt="result1" loading="lazy" src="/posts/hello-hugo/result1.png"></p>
+<p>Very simple, isn’t it?</p>
 <h2 id="build-the-site">Build the Site<a hidden class="anchor" aria-hidden="true" href="#build-the-site">#</a></h2>
 <p>Generate static files:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hugo
@@ -315,6 +320,9 @@ and don&rsquo;t forget to verify your submodules in <code>.gitmodules</code> if 
 <li>Use Azure CLI or Azure Storage Explorer to upload the contents of the <code>public</code> folder to the <code>$web</code> container.</li>
 <li>Configure your storage account&rsquo;s static website endpoint as your site URL.</li>
 </ul>
+<h2 id="there-you-have-it">There you have it<a hidden class="anchor" aria-hidden="true" href="#there-you-have-it">#</a></h2>
+<p>There you have it.
+Now you know it&hellip; no refunds if it stops working!</p>
 
 
   </div>
