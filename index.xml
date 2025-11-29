@@ -7,8 +7,21 @@
     <generator>Hugo -- 0.152.2</generator>
     <language>en-US</language>
     <copyright>Bandhit Suksiri, D.Eng. in Inf. Syst.</copyright>
-    <lastBuildDate>Mon, 03 Nov 2025 20:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 29 Nov 2025 21:00:00 +0900</lastBuildDate>
     <atom:link href="https://bandhit.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NVIDIA Isaac Sim with NVIDIA RTX PRO 4000 Blackwell</title>
+      <link>https://bandhit.github.io/posts/isaac-sim-5.1-4000-blackwell/</link>
+      <pubDate>Sat, 29 Nov 2025 21:00:00 +0900</pubDate>
+      <guid>https://bandhit.github.io/posts/isaac-sim-5.1-4000-blackwell/</guid>
+      <description>&lt;p&gt;&lt;img alt=&#34;4000-blackwell-001&#34; loading=&#34;lazy&#34; src=&#34;https://bandhit.github.io/posts/isaac-sim-5.1-4000-blackwell/4000-blackwell-001.png#center&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;nvidia-isaac-sim-with-nvidia-rtx-pro-4000-blackwell-my-new-robot-playground&#34;&gt;NVIDIA Isaac Sim with NVIDIA RTX PRO 4000 Blackwell: My New Robot Playground&lt;/h2&gt;
+&lt;p&gt;So, I finally did it.
+I caved in and bought the &lt;strong&gt;NVIDIA RTX PRO 4000 Blackwell&lt;/strong&gt; GPU for my workstation.
+And yes, I’ll admit it: the main reason was that I wanted to generate some &lt;em&gt;really&lt;/em&gt; big, high‑quality anime images (you know what I mean, lol).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;meme&#34; loading=&#34;lazy&#34; src=&#34;https://bandhit.github.io/posts/isaac-sim-5.1-4000-blackwell/meme.png#center&#34;&gt;&lt;/p&gt;
+&lt;p&gt;But once I got it, I realized this thing is basically a tiny AI supercomputer, and it can run way more than just image generation, like &lt;strong&gt;NVIDIA Isaac Sim&lt;/strong&gt;, which is my go‑to tool for robotics simulation and AI experiments.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Run Ollama Locally with a Web UI</title>
       <link>https://bandhit.github.io/posts/ollama-local-1/</link>
